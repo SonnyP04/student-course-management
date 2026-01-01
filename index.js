@@ -11,5 +11,5 @@ app.get('/', async (request, response) => {
 const PORT = 3000;
 app.listen(PORT,  () => {
     
-    console.log(`server is running on http:/localhost${PORT}`);
+    console.log(`server is running on http://localhost:${PORT}`);
 });
